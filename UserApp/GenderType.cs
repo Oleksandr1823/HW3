@@ -9,5 +9,6 @@ namespace UserApp;
 internal enum GenderType
 {
     Male,
-    Female
+    Female,
+    Unknown
 }

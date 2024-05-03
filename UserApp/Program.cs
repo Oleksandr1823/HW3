@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using System.Reflection;
+using System.Text.RegularExpressions;
+using UserApp;
+
+var user1 = new User("Oleksandr", "Rohanov", GenderType.Male);
+Console.WriteLine(user1);
+
+
 
