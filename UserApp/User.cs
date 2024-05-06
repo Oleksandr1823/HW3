@@ -64,7 +64,7 @@ internal class User
     {
         do
         {
-            if (Regex.IsMatch(name, @"^[^\d\s]+$"))
+            if (Regex.IsMatch(name, @"^[^\d\s\W]+$"))
             {
                 return name;
             }
