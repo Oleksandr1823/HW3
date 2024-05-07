@@ -3,13 +3,14 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 using UserApp;
 
-var user1 = new User("Oleksandr", "Rohanov", GenderType.Male);
+var user1 = new User("Oleksandr", "Rohanov", 20, GenderType.Male);
 Console.WriteLine(user1);
 
 var user2 = new User
 {
     Age = 8
 };
+
 Console.Write("Enter First Name: ");
 user2.FirstName = Console.ReadLine();
 

@@ -38,12 +38,12 @@ internal class User
         
     }
 
-    public User(string firstName, string lastName, GenderType gender)
+    public User(string firstName, string lastName,int age, GenderType gender)
     {
         FirstName = firstName;
         LastName = lastName;
         Gender = gender;
-        Age = 20;
+        Age = age;
     }
 
     public void EnterGender(string genderStr)
